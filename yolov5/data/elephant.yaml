@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: /root/autodl-tmp/yolov5-master-2/data/train_elephant.txt
+val: /root/autodl-tmp/yolov5-master-2/data/val_elephant.txt
+test: /root/autodl-tmp/yolov5-master-2/data/test_elephant.txt
+
+# number of classes
+nc: 1
+
+# class names
+names: ['Elephant']
